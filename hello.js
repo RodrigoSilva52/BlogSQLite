@@ -5,6 +5,8 @@ const app = express();
 const PORT = 8000;
 
 const index = "<a href='/sobre'>Sobre</a><a href='/info'>Info<a/a>";
+const sobre = 'Vc está na página "SObre"<br><a href="/">VOltar</a>';
+const info = 'vc está na página "INfo"<br><a href="/">Voltar</a>';
 
 app.get("/", (req, res) => {
   res.send(index);
