@@ -1,0 +1,15 @@
+mpm init "digitar ma'raiz' do projeto"
+
+npm install < biblioteca > 
+                            } o node chama de 'module', 'módulo'
+npm i < biblioteca > 
+
+o npm init cria o arquivo 'Package.json' este arquivo é usado pelo npm/node para 'administrativa' os módulos|bibliotecas|list do projeto 
+
+git:
+
+clona um repositório:
+git clone <link do repositório>
+caso já exista uma pasta com o nome do repositorio e esta pasta esteja vazia, o clone ira ser ser feuti, caso a pasta contenha algum arquivo, o 'git clone' nao ira funcionar, para este caso, diigte: git clone <nome_do_repositorio> <nome_da_pasta> 	,
+
+onde <nome_da_pasta>, precisa ser diferente da pasta do repositorio. POr padrao o git cria a pasta com o nome do repositorio.
