@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atividade Formulário</title>
-
-    <link rel="stylesheet" href="/static/styles/styles.css" />
-
-    <script src="/static/scripts/script.js" defer></script>
-  </head>
+  <%- include("../pages/head"); %>
   <body>
     <!-- <header>
       <a href="" class="logo">LOGO</a>
@@ -19,7 +11,7 @@
         <a href="/login">Login</a>
       </nav>
     </header> -->
-    <%- include("menu"); %>
+    <%- include("../pages/menu"); %>
 
     <!-- <div class="container_rain">
       <span class="cloud"></span>
@@ -35,7 +27,8 @@
           descubra novos lugares ao redor do mundo!
         </p>
       </div>
-      <div><%- incluede ("usertable); %></div>
+      <div style="font-size: 32px"><%- incluede ("usertable); %></div>
     </section>
+    <%- include("../partials/rodape") %>
   </body>
 </html>

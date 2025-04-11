@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atividade Formulário</title>
-
-    <!--LINK CSS-->
-    <link rel="stylesheet" href="../static/styles/styles.css" />
-
-    <!--LINK JAVA-->
-    <!-- <script src="../static/scripts/script.js" defer></script> -->
-  </head>
+  <%- include("../partials/header"); %>
   <body>
     <!-- <header>
       <a href="" class="logo">LOGO</a>
@@ -21,7 +11,7 @@
         <a href="/login">Login</a>
       </nav>
     </header> -->
-    <%- include("menu") %>
+    <%- include("../pages/menu"); %>
 
     <div class="container_rain">
       <span class="cloud"></span>
@@ -90,5 +80,6 @@
         </div>
       </form>
     </section>
+    <%- include("../partials/rodape") %>
   </body>
 </html>
